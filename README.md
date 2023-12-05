@@ -19,7 +19,7 @@ Force replacement of current Python3 version.
 example: install python3.10
 
 ```bash
-sudo curl -fsSL https://cdn.jsdelivr.net/gh/HisAtri/Ubuntools@dev/python/replace.sh | sudo bash -s 3.10
+sudo curl -fsSL https://cdn.jsdelivr.net/gh/HisAtri/Ubuntools@master/python/replace.sh | sudo bash -s 3.10
 ```
 
 ## apt
@@ -29,13 +29,13 @@ sudo curl -fsSL https://cdn.jsdelivr.net/gh/HisAtri/Ubuntools@dev/python/replace
 [TUNA Ubuntu 软件仓库](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)
 
 ```bash
-sudo curl -fsSL https://cdn.jsdelivr.net/gh/HisAtri/Ubuntools@dev/apt/tuna-mirror.sh | sudo bash
+sudo curl -fsSL https://cdn.jsdelivr.net/gh/HisAtri/Ubuntools@master/apt/tuna-mirror.sh | sudo bash
 ```
 
 This script creates a backup that can be restored with the following command
 
 ```bash
-sudo curl -fsSL https://cdn.jsdelivr.net/gh/HisAtri/Ubuntools@dev/apt/tuna-mirror.sh | sudo bash -s rollback
+sudo curl -fsSL https://cdn.jsdelivr.net/gh/HisAtri/Ubuntools@master/apt/tuna-mirror.sh | sudo bash -s rollback
 ```
 
 - Enable source code source: `src`
@@ -47,5 +47,5 @@ sudo curl -fsSL https://cdn.jsdelivr.net/gh/HisAtri/Ubuntools@dev/apt/tuna-mirro
 For example:
 
 ```bash
-sudo curl -fsSL https://cdn.jsdelivr.net/gh/HisAtri/Ubuntools@dev/apt/tuna-mirror.sh | sudo bash -s src proprsed disable-https ports
+sudo curl -fsSL https://cdn.jsdelivr.net/gh/HisAtri/Ubuntools@master/apt/tuna-mirror.sh | sudo bash -s src proprsed disable-https ports
 ```
