@@ -17,5 +17,5 @@ bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/HisAtri/Ubuntools@master/Hello
 example: install python3.11
 
 ```bash
-sudo bash -c "$(curl -fsSL https://cdn.jsdelivr.net/gh/HisAtri/Ubuntools@dev/python/update.sh) 3.11"
+sudo curl -fsSL https://cdn.jsdelivr.net/gh/HisAtri/Ubuntools@dev/python/update.sh | sudo bash -s 3.10
 ```
